@@ -1,6 +1,6 @@
 {
   "name": "type-dexie",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "class oriented schema building tool for dexie.js",
   "keywords": [
     "dexie.js",
