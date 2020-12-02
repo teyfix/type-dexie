@@ -1,3 +1,5 @@
+import naming from './util/naming';
+
 export * from './decorator/column';
 export * from './decorator/compound';
 export * from './decorator/entity';
@@ -6,7 +8,7 @@ export * from './decorator/multi-valued';
 export * from './decorator/primary';
 export * from './decorator/unique';
 
-export * from './util/naming';
+export { naming };
 export * from './util/entity-compiler';
 export * from './util/schema-compiler';
 
