@@ -6,6 +6,7 @@ export * from './decorator/multi-valued';
 export * from './decorator/primary';
 export * from './decorator/unique';
 
+export * from './util/naming';
 export * from './util/entity-compiler';
 export * from './util/schema-compiler';
 
