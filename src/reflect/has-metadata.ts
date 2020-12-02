@@ -7,8 +7,7 @@ export const hasMetadata = (
 ): boolean => {
   if (
     null == target ||
-    'object' !== typeof target ||
-    'function' !== typeof target
+    ('object' !== typeof target && 'function' !== typeof target)
   ) {
     return false;
   }
