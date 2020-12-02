@@ -4,6 +4,7 @@ import assert from '../util/assert';
 import { MissingKeyPathError } from '../error/missing-key-path.error';
 import { hasMetadata } from '../reflect/has-metadata';
 import { EmptyEntityError } from '../error/empty-entity.error';
+import { Cls, Key, Metadata, TypeFn } from '../types';
 
 export interface ColumnMetadata extends Metadata {
   keyPath: string;

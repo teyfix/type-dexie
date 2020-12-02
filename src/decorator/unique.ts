@@ -1,6 +1,7 @@
 import { appendMetadata } from '../reflect/append-metadata';
 import { wrapMetadata } from '../reflect/wrap-metadata';
 import assert from '../util/assert';
+import { Cls, Key, Metadata } from '../types';
 
 export function Unique(): PropertyDecorator {
   return (target, propertyKey) => {

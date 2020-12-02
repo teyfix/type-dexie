@@ -1,6 +1,7 @@
 import { Entity } from '../decorator/entity';
 import { NotAnEntityError } from '../error/not-an-entity.error';
 import { NotAConstructorError } from '../error/not-a-constructor.error';
+import { Cls } from '../types';
 
 class Assert {
   isConstructor(target: Cls | Function, message?: string): void {

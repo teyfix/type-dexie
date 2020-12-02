@@ -1,6 +1,7 @@
 import { appendMetadata } from '../reflect/append-metadata';
 import { wrapMetadata } from '../reflect/wrap-metadata';
 import assert from '../util/assert';
+import { Cls, Key, Metadata } from '../types';
 
 export function JoinColumn(): PropertyDecorator {
   return (target, propertyKey) =>

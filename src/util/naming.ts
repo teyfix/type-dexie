@@ -1,4 +1,5 @@
 import { MustBeCamelCasedError } from '../error/must-be-camel-cased.error';
+import { Cls, Key } from '../types';
 
 interface PluralizeRule {
   pattern: RegExp;

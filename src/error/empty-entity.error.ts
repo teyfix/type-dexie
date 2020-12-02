@@ -1,4 +1,5 @@
 import { TypeDexieError } from './type-dexie.error';
+import { Cls } from '../types';
 
 export class EmptyEntityError extends TypeDexieError {
   constructor(target: Cls) {

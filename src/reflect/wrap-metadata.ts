@@ -1,6 +1,7 @@
 import { defineMetadata } from './define-metadata';
 import { getMetadata } from './get-metadata';
 import { hasMetadata } from './has-metadata';
+import { Cls, Key } from '../types';
 
 export const wrapMetadata = <T>(
   metadataKey: unknown,

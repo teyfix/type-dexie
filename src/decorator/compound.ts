@@ -2,6 +2,7 @@ import { appendMetadata } from '../reflect/append-metadata';
 import { wrapMetadata } from '../reflect/wrap-metadata';
 import assert from '../util/assert';
 import { InsufficientKeyPathError } from '../error/insufficient-key-path.error';
+import { Cls, Key } from '../types';
 
 interface CompoundMetadata {
   unique: boolean;

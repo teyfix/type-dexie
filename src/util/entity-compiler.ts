@@ -8,6 +8,7 @@ import { Unique } from '../decorator/unique';
 import naming from './naming';
 import { PrimaryKeyNotAssociatedError } from '../error/primary-key-not-associated.error';
 import { CompoundNotAssociatedError } from '../error/compound-not-associated.error';
+import { Cls, Definition, Key } from '../types';
 
 class EntityCompiler {
   constructor(

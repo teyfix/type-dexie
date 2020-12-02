@@ -4,6 +4,7 @@ import assert from './assert';
 import { compileEntity } from './entity-compiler';
 import naming from './naming';
 import { MultipleImplementationsError } from '../error/multiple-implementations.error';
+import { Cls, Key } from '../types';
 
 type Schema = Record<string, string>;
 

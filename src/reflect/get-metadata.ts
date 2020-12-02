@@ -1,3 +1,5 @@
+import { Cls, Key } from '../types';
+
 export const getMetadata = <T = unknown>(
   metadataKey: unknown,
   target: Cls | Function,

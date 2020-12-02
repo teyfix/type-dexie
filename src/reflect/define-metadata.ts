@@ -1,3 +1,5 @@
+import { Cls, Key } from '../types';
+
 export const defineMetadata = (
   metadataKey: unknown,
   metadataValue: unknown,

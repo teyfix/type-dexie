@@ -4,6 +4,7 @@ import { hasMetadata } from '../reflect/has-metadata';
 import assert from '../util/assert';
 import { MissingPrimaryKeyError } from '../error/missing-primary-key.error';
 import { PrimaryKeyAlreadyDefinedError } from '../error/primary-key-already-defined.error';
+import { Cls, Key, Metadata } from '../types';
 
 interface PrimaryMetadata extends Metadata {
   autoIncrement: boolean;
